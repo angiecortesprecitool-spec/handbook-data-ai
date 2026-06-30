@@ -65,7 +65,7 @@ const config = {
         },
         items: [
           {type: 'docSidebar', sidebarId: 'mainSidebar', position: 'left', label: 'Handbook'},
-          {href: 'https://github.com/angiecortes02/handbook-data-ai', label: 'GitHub', position: 'right'},
+          {href: 'https://github.com/angiecortesprecitool-spec/handbook-data-ai', label: 'GitHub', position: 'right'},
         ],
       },
       footer: {
