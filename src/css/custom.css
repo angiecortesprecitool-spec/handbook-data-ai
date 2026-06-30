@@ -1,0 +1,68 @@
+/* ===========================================================
+   Estilo limpio tipo "handbook" (inspirado en GitLab)
+   Tema claro, tipografía sobria, acento azul marino.
+   =========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Azul marino como color de marca */
+  --ifm-color-primary: #1a4480;
+  --ifm-color-primary-dark: #173c72;
+  --ifm-color-primary-darker: #163866;
+  --ifm-color-primary-darkest: #112d54;
+  --ifm-color-primary-light: #1f5096;
+  --ifm-color-primary-lighter: #2357a0;
+  --ifm-color-primary-lightest: #2d69ba;
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-code-font-size: 90%;
+
+  /* Fondo claro y limpio, contenido cómodo de leer */
+  --ifm-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, .06);
+  --ifm-toc-border-color: #dce6f0;
+  --ifm-color-content: #1a2535;
+  --ifm-color-content-secondary: #5a6676;
+  --ifm-heading-color: #0f1e33;
+  --ifm-line-height-base: 1.65;
+}
+
+/* Sidebar más aireada, tipo handbook */
+.menu {
+  font-size: 0.92rem;
+  padding: 1rem 0.6rem !important;
+}
+.menu__link {
+  border-radius: 6px;
+}
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* Contenido más legible y centrado */
+.markdown {
+  --ifm-h1-font-size: 2.4rem;
+  --ifm-h2-font-size: 1.6rem;
+}
+.markdown h1 { letter-spacing: -0.02em; }
+.markdown h2 {
+  margin-top: 2.4rem;
+  padding-top: 1rem;
+  border-top: 1px solid #dce6f0;
+}
+
+/* Tablas limpias */
+.markdown table th {
+  background: #f0f4fb;
+}
+
+/* Navbar título un poco más marcado */
+.navbar__title { font-weight: 700; }
+
+/* Botones con el morado de marca */
+.button--primary {
+  --ifm-button-background-color: var(--ifm-color-primary);
+}
