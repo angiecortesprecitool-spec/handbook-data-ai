@@ -2,7 +2,7 @@
 
 Proyecto mínimo para ver cómo funciona Docusaurus, con look tipo GitLab Handbook.
 
-## Correr en local
+## Para correr en local
 
 ```bash
 npm install     # una sola vez (descarga dependencias)
@@ -11,7 +11,7 @@ npm start       # abre http://localhost:3000
 
 Edita cualquier `.md` en `docs/`, guarda, y el navegador se actualiza solo.
 
-## Qué tocar
+## Archivos a Modificar
 
 - `docs/`              → el contenido (Markdown). Aquí trabajas.
 - `src/css/custom.css` → colores y fuentes (el look tipo GitLab).
